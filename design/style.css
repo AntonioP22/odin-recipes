@@ -1,3 +1,7 @@
+* {
+    font-family: 'Italiana', 'Helvetica', sans-serif;
+}
+
 body {
     background-color: grey;
     text-align: center;
@@ -17,6 +21,7 @@ body {
     padding: 4px;
     content: "~";
     color: black;
+    font-weight: bolder;
 }
 
 .background-1 {
@@ -48,8 +53,11 @@ embed:hover {
     transform:scale(150%);
 }
 
-a {
+a,
+footer {
     color: black;
+    font-weight: bold;
+    font-size: large;
 }
 
 a:hover {
@@ -80,4 +88,17 @@ a:hover {
 
 .container-1 {
     height: fit-content;
+}
+
+p,
+li,
+ol {
+    color: black;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-bottom: 10px;
 }
