@@ -10,12 +10,12 @@ body {
 .breadcrumb a{
     display: inline;
     text-decoration: none;
-    font-size: large;
+    font-size: larger;
 }
 
 .breadcrumb a + a:before {
     padding: 4px;
-    content: ">";
+    content: "~";
     color: black;
 }
 
@@ -55,4 +55,29 @@ a {
 a:hover {
     cursor: pointer;
     color: blue;
+}
+
+.cont {
+    display: flex;    
+}
+
+.ing {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.list,
+.container-1 {
+    background-color: rgba(71, 59, 59, 0.282);
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.step {
+    text-align: left;
+    line-height: 2;
+}
+
+.container-1 {
+    height: fit-content;
 }
